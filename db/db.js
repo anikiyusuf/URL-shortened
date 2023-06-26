@@ -1,6 +1,6 @@
 require('dotenv').config()
 const mongoose = require('mongoose')
-//const logger = require("./logger/logger")
+
 const MONGO_DB_CONNECTION_URL = process.env.MONGO_DB_CONNECTION_URL
 
 function  connectionMongoDB(){

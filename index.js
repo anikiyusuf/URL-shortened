@@ -1,7 +1,5 @@
 require('dotenv').config()
 const express = require("express")
-//const userRouter = require('./routes/userRouter')
- //const router = require('./routes/urlRoutes');
 const { connectionMongoDB } = require("./db/db");
 const app = express()
 const PORT = process.env.PORT

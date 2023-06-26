@@ -1,7 +1,7 @@
 const express = require('express');
 const { validationResult } = require('express-validator');
 const router = express.Router();
-const  { getShortUrls, createShortUrl, redirectToFullUrl, generateQRCode} = require('../controllers/urlshortenerController');
+const  { getShortUrls, createShortUrl, redirectToFullUrl} = require('../controllers/urlshortenerController');
 
 function validateRequest(req, res, next) {
     const errors = validationResult(req);
@@ -15,6 +15,6 @@ function validateRequest(req, res, next) {
 router.get('/url',  getShortUrls);
 router.post('/shortUrls', validateRequest,  createShortUrl);
 router.get('/:shortUrl', redirectToFullUrl);
-router.get('/generateqrcode', generateQRCode)
+
 
 module.exports = router;
