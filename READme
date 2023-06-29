@@ -1,6 +1,8 @@
-# URL Shortener
+# scissor-project
 
-This is a simple URL shortener application that allows you to generate short and concise URLs for long and complex ones. It helps make your URLs more manageable and shareable.
+This is a simple URL shortener application that allows you to generate short and concise URLs for long and complex ones, It helps make your URLs more manageable and shareable. The application offers the ability to customize URLs and provides the option to download a QR code image.
+
+The project follows the MVC (Model-View-Controller) Pattern, which is a software architectural design pattern. This pattern divides the application into three main components: the model, the view, and the controller. Each component has its own responsibilities and interacts with the others in a specific way.
 
 ## Features
 
@@ -9,7 +11,7 @@ This is a simple URL shortener application that allows you to generate short and
 - Redirect users to the original long URL when they access the short URL.
 - Analytics dashboard to track the number of clicks for each shortened URL.
 
-## Technologies Used
+## Technologies Used, just to mention few
 
 - Node.js
 - Express.js
@@ -21,36 +23,19 @@ This is a simple URL shortener application that allows you to generate short and
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/url-shortener.git`
-2. Navigate to the project directory: `cd url-shortener`
+1. Clone the repository: `git clone https://github.com/JulianaMicheal/scissor-project`
+2. Navigate to the project directory: `cd scissor-project`
 3. Install dependencies: `npm install`
-4. Set up your database connection in the `config.js` file.
-5. Start the server: `npm start`
+4. Set up your database connection in the `db.js` file.
+5. Start the application: `npm install nodemon -D nodemon`
 
 ## Usage
 
-- Access the application in your web browser by visiting `http://localhost:3000` (or the appropriate port).
+- Access the application in your web browser by visiting `http://localhost:3000`
 - Enter a long URL in the provided input field and click the "Shorten" button.
 - Optionally, specify a custom keyword for your short URL.
 - Copy the generated short URL and use it as desired.
 - Access the shortened URL in your web browser to be redirected to the original long URL.
-
-## Configuration
-
-You can customize the application by modifying the configuration file `config.js`. Here are some possible configurations:
-
-- Change the server port: Modify the `port` value in `config.js`.
-- Use a different database: Modify the database connection settings in `config.js`.
-- Enable/disable custom keywords: Set the `enableCustomKeywords` flag to `true` or `false`.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- [Express.js](https://expressjs.com) - Fast, unopinionated, minimalist web framework for Node.js.
-- [MongoDB](https://www.mongodb.com) - NoSQL database for modern applications.
 
 ## Contributing
 
@@ -58,4 +43,4 @@ Contributions are welcome! If you have any improvements or feature suggestions, 
 
 ## Support
 
-For any issues or questions, please open an issue in the [issue tracker](https://github.com/your-username/url-shortener/issues).
+For any issues or questions, please open an issue in the [issue tracker](https://github.com/JulianaMicheal/scissor-project/issues).

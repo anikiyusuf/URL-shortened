@@ -9,7 +9,7 @@ const options = {
       description:'This is a REST API application made with express.',
       license:{
         name:"Juliana Micheal",
-        url:"https://anikiyusufportfolio.netlify.app"
+        url:"https://github.com/JulianaMicheal/JulianaMicheal"
     },
     contact:{
         name: 'Scissor',
