@@ -1,0 +1,61 @@
+# URL Shortener
+
+This is a simple URL shortener application that allows you to generate short and concise URLs for long and complex ones. It helps make your URLs more manageable and shareable.
+
+## Features
+
+- Generate short URLs for long and complex ones.
+- Customizable short URLs with a user-defined keyword.
+- Redirect users to the original long URL when they access the short URL.
+- Analytics dashboard to track the number of clicks for each shortened URL.
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- MongoDB
+- HTML/CSS
+- Bootstrap
+- Ejs
+- JavaScript
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/your-username/url-shortener.git`
+2. Navigate to the project directory: `cd url-shortener`
+3. Install dependencies: `npm install`
+4. Set up your database connection in the `config.js` file.
+5. Start the server: `npm start`
+
+## Usage
+
+- Access the application in your web browser by visiting `http://localhost:3000` (or the appropriate port).
+- Enter a long URL in the provided input field and click the "Shorten" button.
+- Optionally, specify a custom keyword for your short URL.
+- Copy the generated short URL and use it as desired.
+- Access the shortened URL in your web browser to be redirected to the original long URL.
+
+## Configuration
+
+You can customize the application by modifying the configuration file `config.js`. Here are some possible configurations:
+
+- Change the server port: Modify the `port` value in `config.js`.
+- Use a different database: Modify the database connection settings in `config.js`.
+- Enable/disable custom keywords: Set the `enableCustomKeywords` flag to `true` or `false`.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [Express.js](https://expressjs.com) - Fast, unopinionated, minimalist web framework for Node.js.
+- [MongoDB](https://www.mongodb.com) - NoSQL database for modern applications.
+
+## Contributing
+
+Contributions are welcome! If you have any improvements or feature suggestions, feel free to submit a pull request.
+
+## Support
+
+For any issues or questions, please open an issue in the [issue tracker](https://github.com/your-username/url-shortener/issues).

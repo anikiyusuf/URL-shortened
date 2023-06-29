@@ -19,7 +19,7 @@ const register = async (req,res) => {
         const { firstName , lastName , email , password } = req.body;
 
         const user = await userModel.create({ firstName , lastName , email , password })
-        //  console.log(user)
+          console.log(user)
    
         //  res.status(200).json(user)
          res.redirect("/enter")

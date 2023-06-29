@@ -11,7 +11,7 @@ body{
 }
 
 .index{
-    background-color: hsl(230, 25%, 95%);
+    background-color: hsl(0, 10%, 96%);
 }
 
 .header--item{
@@ -25,6 +25,7 @@ body{
     padding-bottom:.4rem;
     box-shadow: -2px 4px 17px 6px rgba(0,0,0,0.20);
 }
+
 
 .header--item__url{
     display: flex;
@@ -50,31 +51,31 @@ body{
 
 .sign{
     border: none;
-    background-color:hsl(184, 60%, 76%);
+    background-color: white;
     padding:.5rem;
-    color:white;
+    color: black;
     border-radius: .7rem;
     margin-left: 1rem;
     border: none;
     cursor: pointer;
 }
 .sign:hover{
-    color: hsl(184, 60%, 76%);
-   background-color: white;
+    color: white;
+   background-color: rgb(19, 18, 18);
 }
 
     
    .login{
     background-color:white;
     padding:.7rem;
-    color:hsl(184, 60%, 76%);
+    color:hsl(180, 4%, 5%);
     border-radius: .7rem;
     margin-left: 1rem;
     border: none;
     cursor: pointer;
 }
 .login:hover{
-    background-color:hsl(184, 60%, 76%);;
+    background-color:hsl(180, 3%, 6%);;
     color: white;
 }
 
@@ -86,7 +87,7 @@ ul {
      margin-right: 23rem;
 }
 li a{
-    color:hsl(184, 60%, 76%);
+    color:hsl(240, 3%, 6%);
     font-weight: 700;
   
 }
@@ -108,7 +109,7 @@ h1{
 }
 
 .btn--sign  {
-    background-color: hsl(184, 60%, 76%);;
+    background-color: hsl(180, 3%, 7%);;
     color: white;
     border: none;
     padding:.5rem;
@@ -133,7 +134,7 @@ input{
     border-bottom: 2px solid black;
 }
 .create{
-    background-color:hsl(184, 60%, 76%);
+    background-color:hsl(180, 6%, 7%);
 }
 p{
     text-align: center;
@@ -141,20 +142,20 @@ p{
 
   p a{
     text-decoration: none;
-    color:hsl(184, 60%, 76%);
+    color:hsl(180, 5%, 8%);
     font-weight: 600;
     font-size: 1em;
     margin-left: .4rem;
 }
 p a:hover{
-    color:  hsl(184, 60%, 76%);
+    color:  hsl(180, 3%, 6%);
 }
 .enter{
-    background-color: hsl(184, 60%, 76%);
+    background-color: hsl(180, 5%, 9%);
 }
 
 .btn--enter {
-    background-color: hsl(184, 60%, 76%);
+    background-color: hsl(240, 3%, 6%);
     color: white;
     border: none;
     padding:.7rem;
@@ -201,7 +202,7 @@ section{
     color:hsl(240, 1%, 63%);
 }
 .section--text button{
-    background-color: hsl(184, 60%, 76%);
+    background-color: hsl(0, 0%, 3%);
     border: none;
     color:white;
     padding:.7rem;
@@ -211,7 +212,7 @@ section{
 }
 
 .logout{
-    background-color: hsl(184, 60%, 76%);
+    background-color: hsl(180, 9%, 7%);
     border: none;
     color:white;
     padding:.7rem;
@@ -501,7 +502,7 @@ section{
     }
     
     .section--one  p, .section--two  p, .section--three p , .section--four  p, .section--five p{
-        color:hsl(184, 60%, 76%);
+        color:hsl(180, 4%, 9%);
         padding-left:2rem;
         padding-right: 2rem;
         margin-top: 1rem;
@@ -509,6 +510,7 @@ section{
     .logout{
        margin-right: -4rem;
         cursor: pointer;
+        background-color: black;
     }
     .header--item__url{
        width:71rem;
