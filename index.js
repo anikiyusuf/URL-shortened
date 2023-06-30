@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: false }))
 app.use(express.static('public'))
 
 app.use("/" , require("./routes/index"))
-app.use("/auth" ,require("./routes/userRouter"))
+app.use("/auth" ,require("./routes/userRoutes"))
 app.use("/" , require("./routes/urlRoutes"))
 
 
