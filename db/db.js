@@ -3,10 +3,10 @@ const mongoose = require('mongoose')
 
 const MONGO_DB_CONNECTION_URL = process.env.MONGO_DB_CONNECTION_URL
 
-function  connectionMongoDB(){
+function  connectionMongoDB() {
     const MONGO_DB_CONNECTION_URL = 'mongodb://localhost:27017'
-    mongoose.connect(MONGO_DB_CONNECTION_URL, {
-        serverSelectionTimeoutMS: 30000})
+    mongoose.connect(MONGO_DB_CONNECTION_URL)};
+//, {erverSelectionTimeoutMS: 30000})
 
       
     mongoose.connection.on('connected', () =>{
@@ -18,10 +18,10 @@ function  connectionMongoDB(){
         
     })
 
-}
+ 
 
 
-module.exports =   {connectionMongoDB}
+ module.exports =   {connectionMongoDB}
 
 
 
@@ -50,4 +50,10 @@ module.exports =   {connectionMongoDB}
 // }
 
 // module.exports =  {connectionMongoDB}
+
+
+
+
+
+
 
